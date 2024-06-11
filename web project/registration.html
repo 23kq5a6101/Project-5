@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>sign up</title>
+        <style>
+           body{
+                background-image:url(7.jpg);
+                background-size: cover;
+               color:antiquewhite;
+                height: 100%;
+
+            }
+            .box{
+                background-color:rgba(26, 158, 182, 0.25);
+                padding: 20px;
+                width: 300px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                margin-left:43%;
+                margin-right:40%;
+                top: 55%;
+                transform: translateY(-50%);
+                border-radius: 20px;
+                font-size: 100%;
+            }
+            h2{
+                background-color:rgb(199, 235, 223);
+                color: black;
+            }
+        </style>
+    </head>
+   <center>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="website.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="login.html">login</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+         <div class="box">
+            <h3>Registration:</h3>
+            <br>
+            <form action="login.html">
+             Name:<br>
+             <input type="text" name="uname"><br>
+             address:<br>
+             <input type="text" name="saddress"><br>
+             Phone no:<br>
+             <input type="number" name="sphone"id="prel"pattren="[0-9]{10}"><br>
+             Email:<br>
+             <input type="email"name="office"id="office"><br>
+             <h3>gender</h3>
+             <input type="radio" name="sname" value="m">male
+             <input type="radio" name="uname" value="f">    female<br>
+             Data of Brith:
+             <input type="date"name="brithday">
+             <h3>comment</h3>
+             select car type:
+             <select name="car type:"> 
+             <option value="luxury">luxury</option>
+             <option type=" antique">antique</option>
+             <option type=" supercars">supercar</option>
+             <option type=" muscle">musclecar</option>
+             <option type=" coupe">coupe</option>
+             <option type=" sports car">sports car</option>
+             <option type=" suv">suv</option>
+             <option type="MPV/Minivan">MPV/Minivan</option>
+             <option type=" SUV (Sports Utility Vehicle)">SUV</option>
+             <option type=" Crossover SUV">Crossover SUV</option>
+             <option type=" Coupe SUV">Coupe SUV</option>
+             <option type=" Compact SUV">Compact SUV</option>
+             <option type=" 4-Door Coupe">4-Door Coupe</option>
+             <option type=" Station Wagon">Station Wagon</option>
+             <option type=" Convertible/Spyder/Cabriolet">Convertible/Spyder/Cabriolet</option>
+            </select><br>
+            <br>
+             <textarea name="mytest" col="35" row="45">
+                 textarea.......
+                </textarea><br>
+                <input type="submit"value ="submit">
+            </form>
+            </div>
+    </body></center>
+</html>
